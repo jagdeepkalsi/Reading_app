@@ -23,7 +23,12 @@ The app includes:
 
 ## Getting Started
 
-See [SETUP.md](SETUP.md) for detailed setup instructions.
+**Super simple - just 3 steps:**
+1. Double-click `ReadingApp.xcodeproj`
+2. Select a simulator (iPhone or iPad)
+3. Click the Play button ▶️
+
+See [SETUP.md](SETUP.md) for more details.
 
 ## Built With
 

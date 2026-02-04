@@ -1,6 +1,6 @@
 # Reading App Setup Guide
 
-## Quick Start
+## Quick Start - Super Simple!
 
 This is a SwiftUI iOS app for teaching kids to read, inspired by Bob Books.
 
@@ -12,26 +12,21 @@ This is a SwiftUI iOS app for teaching kids to read, inspired by Bob Books.
 - 🎨 Playful, kid-friendly interface with rounded fonts
 - ✨ Bounce animations when tapping words
 
-### How to Build
+### How to Run (3 Easy Steps!)
 
-#### Option 1: Create in Xcode (Recommended)
-1. Open Xcode
-2. Select "Create a new Xcode project"
-3. Choose "iOS" → "App"
-4. Name it "ReadingApp"
-5. Select "SwiftUI" for Interface
-6. Select "Swift" for Language
-7. Replace the generated files with the files from this repository:
-   - Copy all files from `ReadingApp/` folder into your Xcode project
-   - Make sure to organize them in the same folder structure
+1. **Double-click** `ReadingApp.xcodeproj` in Finder
+2. **Select a simulator** at the top (like "iPhone 15" or "iPad Pro")
+3. **Click the Play button** ▶️ (or press Cmd+R)
 
-#### Option 2: Using Command Line
+That's it! The app will launch in the simulator.
+
+### Alternative: Command Line
 ```bash
-# Navigate to the ReadingApp directory
-cd ReadingApp
+# Open the project in Xcode
+open ReadingApp.xcodeproj
 
-# Open in Xcode (if you have Xcode Command Line Tools installed)
-open -a Xcode .
+# Or build and run from terminal
+xcodebuild -project ReadingApp.xcodeproj -scheme ReadingApp -destination 'platform=iOS Simulator,name=iPhone 15'
 ```
 
 ### Project Structure
